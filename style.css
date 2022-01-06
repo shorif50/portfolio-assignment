@@ -2,7 +2,7 @@ body{
     margin: 0;
 }
 
-section{
+.header-sec{
     display: flex;
     margin-top: 40px;
 }
@@ -51,10 +51,121 @@ section{
 }
 
 
+/* mission part started from here */
+.mission-sec{
+    margin: 80px 40px;
+}
+.mission-title{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.mission-title span{
+    color: chocolate;
+}
+.mission-part{
+    display: flex;
+}
+.mission-part div{
+    width: 33%;
+}
+
+.mission-part div img{
+    width: 50%;
+}
+.mission-part h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+
+}
+.mission-part p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    
+}
+.first-box{
+    padding: 20px;
+    background-color: cornflowerblue;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.second-box{
+    padding: 20px;
+    background-color: rgb(124, 194, 103);
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.third-box{
+    padding: 20px;
+    background-color: rgb(206, 196, 52);
+    margin: 10px;
+    border-radius: 20px;
+}
+
+
+/* third sec started from here */
+
+.third-sec{
+    display: flex;
+    margin: 0px 40px;
+    align-items: center;
+}
+.third-sec-img{
+    width: 40%;
+}
+.third-sec-img img{
+    width: 80%;
+}
+.third-sec-texts{
+    width: 60%;
+    margin-left: 30px;
+
+}
+.third-sec-texts h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.third-sec-texts p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+/* third sec end from here */
 
 
 
+/* fourth sec started from here */
 
+.fourth-sec{
+    display: flex;
+    margin: 80px 40px 40px 40px;
+    align-items: center;
+}
+.fourth-sec-img{
+    width: 40%;
+}
+.fourth-sec-img img{
+    width: 80%;
+}
+.fourth-sec-texts{
+    width: 60%;
+    margin-right: 30px;
+
+}
+.fourth-sec-texts h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.fourth-sec-texts p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
 
 
 
