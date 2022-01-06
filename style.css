@@ -17,15 +17,16 @@ body{
     margin-left: 10px;
 }
 .left-border{
-    border-left: 4px solid cyan;
+    border-left: 4px solid #784CFB;
 }
 .first-text p{
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+    font-size: 17px;
+    margin-bottom: 25px;
 }
 
 #color-h1{
-    color: #FF287D;
+    color: #784CFB;
     margin-top: 5px;
 }
 .all-button{
@@ -33,7 +34,7 @@ body{
     font-weight: 500;
     font-size: 17px;
     padding: 10px 20px;
-    background: linear-gradient(rgb(245, 181, 6), rgb(255, 0, 255));
+    background: #784CFB;
     border: none;
     border-radius: 5px;
     color: white;
@@ -62,7 +63,7 @@ body{
     font-weight: 700;
 }
 .mission-title span{
-    color: chocolate;
+    color: #97CBF5;
 }
 .mission-part{
     display: flex;
@@ -86,21 +87,21 @@ body{
 }
 .first-box{
     padding: 20px;
-    background-color: cornflowerblue;
+    background-color: #F7E4CB;
     margin: 10px;
     border-radius: 20px;
 }
 
 .second-box{
     padding: 20px;
-    background-color: rgb(124, 194, 103);
+    background-color: #C5E0F5;
     margin: 10px;
     border-radius: 20px;
 }
 
 .third-box{
     padding: 20px;
-    background-color: rgb(206, 196, 52);
+    background-color: rgb(165, 150, 247);
     margin: 10px;
     border-radius: 20px;
 }
@@ -171,12 +172,16 @@ body{
 
 .about-me{
     display: flex;
-    /* text-align: center; */
     margin: 0px 80px 80px 80px ;
     padding: 40px;
-    background-color: rgb(156, 156, 156);
+    background-color: #C5E0F5;
     border-radius: 20px;
     font-family: 'Poppins', sans-serif;
+    background-image: url(images/shapes/shape-6.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 40%;
+
 }
 .about-title{
     text-align: center;
@@ -202,16 +207,21 @@ body{
 
 footer{
     text-align: center;
-    background-color: grey;
+    background-color: #262626;
     padding: 20px ;
 
 }
 footer h1{
     font-family: 'Lobster Two', cursive;
+    color: white;
+}
+footer span{
+    color: #784CFB;
 }
 footer p{
     margin: 0px;
     font-family: 'Poppins', sans-serif;
+    color: white;
 }
 
 
