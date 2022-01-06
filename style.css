@@ -196,6 +196,32 @@ body{
     text-align: left;
     margin-left: 60px;
 }
+
+
+/* footer section added */
+
+footer{
+    text-align: center;
+    background-color: grey;
+    padding: 20px ;
+
+}
+footer h1{
+    font-family: 'Lobster Two', cursive;
+}
+footer p{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+
+
 /* font-family: 'Bree Serif', serif;
 font-family: 'Lobster Two', cursive;
 font-family: 'Poppins', sans-serif; */
